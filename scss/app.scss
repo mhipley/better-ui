@@ -1,0 +1,15 @@
+@import 'icons';
+
+@import 'core';
+
+.share {
+	color: $secondary;
+	text-align: center;
+	font-size: 4em;
+	width: 100%;
+	display: block;
+	margin: 1em 0;
+	&:hover {
+		color: $darkSecondary;
+	}
+}
